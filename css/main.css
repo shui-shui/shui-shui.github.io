@@ -528,8 +528,8 @@ mark,
 .author .author-avatar-wrapper {
   border-width: 1px;
   border-color: b6b6b6;
-  width: 70px;
-  height: 70px;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
   user-select: none;
   background-color: #0d122b;
