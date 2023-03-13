@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>http://sea-01.online/2023/03/13/node_modules/hexo-generator-feed/package/</loc>
-    
-    <lastmod>2023-03-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://sea-01.online/2023/03/12/nature/</loc>
     
     <lastmod>2023-03-12</lastmod>
@@ -50,15 +41,6 @@
     <loc>http://sea-01.online/2023/03/11/hello-world/</loc>
     
     <lastmod>2023-03-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://sea-01.online/2023/03/13/node_modules/hexo-generator-feed/README/</loc>
-    
-    <lastmod>1985-10-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

@@ -1,8 +1,6 @@
 http://sea-01.online/2023/03/13/bug%E8%BF%99%E4%B9%88%E5%A4%9A%E6%83%B3%E6%AD%BB/
 http://sea-01.online/2023/03/13/%E6%97%A5%E5%B8%B8/
 http://sea-01.online/2023/03/13/package/
-http://sea-01.online/2023/03/13/node_modules/hexo-generator-feed/package/
 http://sea-01.online/2023/03/12/nature/
 http://sea-01.online/2023/03/11/hello-world/
-http://sea-01.online/2023/03/13/node_modules/hexo-generator-feed/README/
 http://sea-01.online/
