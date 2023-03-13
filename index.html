@@ -267,6 +267,48 @@
     <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
     
       <article class="post-item">
+        <span class="post-item-date" datetime="2023-03-13T07:41:39.920Z">3月 13, 2023</span>
+        <h4 class="post-item-title">
+          <a href="/2023/03/13/package/"></a>
+        </h4>
+      </article>
+    
+      <article class="post-item">
+        <span class="post-item-date" datetime="2023-03-13T07:41:37.506Z">3月 13, 2023</span>
+        <h4 class="post-item-title">
+          <a href="/2023/03/13/node_modules/hexo-generator-feed/README/"></a>
+        </h4>
+      </article>
+    
+      <article class="post-item">
+        <span class="post-item-date" datetime="2023-03-13T07:41:37.504Z">3月 13, 2023</span>
+        <h4 class="post-item-title">
+          <a href="/2023/03/13/node_modules/hexo-generator-feed/package/"></a>
+        </h4>
+      </article>
+    
+      <article class="post-item">
+        <span class="post-item-date" datetime="2023-03-13T07:41:37.502Z">3月 13, 2023</span>
+        <h4 class="post-item-title">
+          <a href="/2023/03/13/node_modules/hexo-generator-feed/index/"></a>
+        </h4>
+      </article>
+    
+      <article class="post-item">
+        <span class="post-item-date" datetime="2023-03-13T07:41:37.500Z">3月 13, 2023</span>
+        <h4 class="post-item-title">
+          <a href="/2023/03/13/node_modules/hexo-generator-feed/lib/generator/"></a>
+        </h4>
+      </article>
+    
+      <article class="post-item">
+        <span class="post-item-date" datetime="2023-03-13T07:41:37.498Z">3月 13, 2023</span>
+        <h4 class="post-item-title">
+          <a href="/2023/03/13/node_modules/hexo-generator-feed/lib/autodiscovery/"></a>
+        </h4>
+      </article>
+    
+      <article class="post-item">
         <span class="post-item-date" datetime="2023-03-13T07:07:46.000Z">3月 13, 2023</span>
         <h4 class="post-item-title">
           <a href="/2023/03/13/%E6%97%A5%E5%B8%B8/">日常</a>
@@ -318,5 +360,46 @@
     };
   </script>
   <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+  <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
+<script>
+    var APP_ID = '你的app id';
+    var APP_KEY = '你的app key';
+    AV.init({
+        appId: APP_ID,
+        appKey: APP_KEY
+    });
+    // 显示次数
+    function showTime(Counter) {
+        var query = new AV.Query("Counter");
+        if($(".leancloud_visitors").length > 0){
+            var url = $(".leancloud_visitors").attr('id').trim();
+            // where field
+            query.equalTo("words", url);
+            // count
+            query.count().then(function (number) {
+                // There are number instances of MyClass where words equals url.
+                $(document.getElementById(url)).text(number?  number : '--');
+            }, function (error) {
+                // error is an instance of AVError.
+            });
+        }
+    }
+    // 追加pv
+    function addCount(Counter) {
+        var url = $(".leancloud_visitors").length > 0 ? $(".leancloud_visitors").attr('id').trim() : 'icafebolger.com';
+        var Counter = AV.Object.extend("Counter");
+        var query = new Counter;
+        query.save({
+            words: url
+        }).then(function (object) {
+        })
+    }
+    $(function () {
+        var Counter = AV.Object.extend("Counter");
+        addCount(Counter);
+        showTime(Counter);
+    });
+</script>
+
 </body>
 </html>
