@@ -6,7 +6,7 @@
   <link href="http://sea-01.online/atom.xml" rel="self"/>
   
   <link href="http://sea-01.online/"/>
-  <updated>2023-03-15T13:25:46.601Z</updated>
+  <updated>2023-03-15T13:45:06.548Z</updated>
   <id>http://sea-01.online/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>日常</title>
+    <title>日常2</title>
     <link href="http://sea-01.online/2023/03/15/%E6%97%A5%E5%B8%B8-1/"/>
     <id>http://sea-01.online/2023/03/15/%E6%97%A5%E5%B8%B8-1/</id>
     <published>2023-03-15T13:21:12.000Z</published>
-    <updated>2023-03-15T13:25:46.601Z</updated>
+    <updated>2023-03-15T13:45:06.548Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="今天也是没用的一天"><a href="#今天也是没用的一天" class="headerlink" title="今天也是没用的一天"></a>今天也是没用的一天</h1><p><code> System.out.println(&quot;好累&quot;);</code></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="今天也是没用的一天"><a href="#今天也是没用的一天" class="headerlink" title="今天也是没用的一天"></a>今天也是没用的一天</h1><p><code> System.out.println(&quot;好累&quot;);</code><br>$ 不知道写点啥</p>]]></content>
     
     
       
