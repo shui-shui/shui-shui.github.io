@@ -6,7 +6,7 @@
   <link href="http://sea-01.online/atom.xml" rel="self"/>
   
   <link href="http://sea-01.online/"/>
-  <updated>2023-03-16T05:01:29.610Z</updated>
+  <updated>2023-03-16T05:34:45.631Z</updated>
   <id>http://sea-01.online/</id>
   
   <author>
@@ -21,8 +21,15 @@
     <link href="http://sea-01.online/2023/03/16/java%E8%AF%BE/"/>
     <id>http://sea-01.online/2023/03/16/java%E8%AF%BE/</id>
     <published>2023-03-16T05:01:29.000Z</published>
-    <updated>2023-03-16T05:01:29.610Z</updated>
+    <updated>2023-03-16T05:34:45.631Z</updated>
     
+    <content type="html"><![CDATA[<h3 id="好像也没什么可写的"><a href="#好像也没什么可写的" class="headerlink" title="好像也没什么可写的"></a>好像也没什么可写的</h3><h1 id="一"><a href="#一" class="headerlink" title="一"></a>一</h1><h2 id="参数传值"><a href="#参数传值" class="headerlink" title="参数传值"></a>参数传值</h2><ul><li>当调用对象，参数才会被分配空间</li></ul><h2 id="传值机制"><a href="#传值机制" class="headerlink" title="传值机制"></a>传值机制</h2><ul><li>传递的值不可以高于该参数的级别<br> 注： 数据类型的精度<figure class="highlight plaintext"><figcaption><span>Computer&#123;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">    int add(int x,int y)&#123;</span><br><span class="line">        return x+y;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public class Main &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Computer com =new Computer();//创建对象很重要</span><br><span class="line">        int m=100;</span><br><span class="line">        int n=200;</span><br><span class="line">        int result =com.add(m,n);</span><br><span class="line">        System.out.println(result);</span><br><span class="line">        result=com.add(120+m,n*10+8);</span><br><span class="line">        System.out.println(result);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;好像也没什么可写的&quot;&gt;&lt;a href=&quot;#好像也没什么可写的&quot; class=&quot;headerlink&quot; title=&quot;好像也没什么可写的&quot;&gt;&lt;/a&gt;好像也没什么可写的&lt;/h3&gt;&lt;h1 id=&quot;一&quot;&gt;&lt;a href=&quot;#一&quot; class=&quot;headerlink&quot; ti</summary>
+      
     
     
     
