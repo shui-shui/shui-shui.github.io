@@ -6,7 +6,7 @@
   <link href="http://sea-01.online/atom.xml" rel="self"/>
   
   <link href="http://sea-01.online/"/>
-  <updated>2023-03-16T05:34:45.631Z</updated>
+  <updated>2023-03-19T14:26:12.095Z</updated>
   <id>http://sea-01.online/</id>
   
   <author>
@@ -17,13 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日常3</title>
+    <link href="http://sea-01.online/2023/03/19/%E6%97%A5%E5%B8%B83/"/>
+    <id>http://sea-01.online/2023/03/19/%E6%97%A5%E5%B8%B83/</id>
+    <published>2023-03-19T14:19:33.000Z</published>
+    <updated>2023-03-19T14:26:12.095Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="周末"><a href="#周末" class="headerlink" title="周末"></a>周末</h1><h2 id="和朋友出去玩，又认识了新的朋友还加了微信。"><a href="#和朋友出去玩，又认识了新的朋友还加了微信。" class="headerlink" title="和朋友出去玩，又认识了新的朋友还加了微信。"></a>和朋友出去玩，又认识了新的朋友还加了微信。</h2><h2 id="因为穿的增高鞋外加上走了好多路，后期有点表现得不是很开心。其实回想一下今天。"><a href="#因为穿的增高鞋外加上走了好多路，后期有点表现得不是很开心。其实回想一下今天。" class="headerlink" title="因为穿的增高鞋外加上走了好多路，后期有点表现得不是很开心。其实回想一下今天。"></a>因为穿的增高鞋外加上走了好多路，后期有点表现得不是很开心。其实回想一下今天。</h2><h2 id="画了好看的妆，穿了好看的衣服，很开心哒，不过下次出门不要再穿增高鞋啦！！！好累！！！！"><a href="#画了好看的妆，穿了好看的衣服，很开心哒，不过下次出门不要再穿增高鞋啦！！！好累！！！！" class="headerlink" title="画了好看的妆，穿了好看的衣服，很开心哒，不过下次出门不要再穿增高鞋啦！！！好累！！！！"></a>画了好看的妆，穿了好看的衣服，很开心哒，不过下次出门不要再穿增高鞋啦！！！好累！！！！</h2><h2 id="新的朋友也很照顾我的情绪，很喜欢他！！！"><a href="#新的朋友也很照顾我的情绪，很喜欢他！！！" class="headerlink" title="新的朋友也很照顾我的情绪，很喜欢他！！！"></a>新的朋友也很照顾我的情绪，很喜欢他！！！</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;周末&quot;&gt;&lt;a href=&quot;#周末&quot; class=&quot;headerlink&quot; title=&quot;周末&quot;&gt;&lt;/a&gt;周末&lt;/h1&gt;&lt;h2 id=&quot;和朋友出去玩，又认识了新的朋友还加了微信。&quot;&gt;&lt;a href=&quot;#和朋友出去玩，又认识了新的朋友还加了微信。&quot; class=&quot;he</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>java课</title>
     <link href="http://sea-01.online/2023/03/16/java%E8%AF%BE/"/>
     <id>http://sea-01.online/2023/03/16/java%E8%AF%BE/</id>
     <published>2023-03-16T05:01:29.000Z</published>
-    <updated>2023-03-16T05:34:45.631Z</updated>
+    <updated>2023-03-16T06:25:38.828Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="好像也没什么可写的"><a href="#好像也没什么可写的" class="headerlink" title="好像也没什么可写的"></a>好像也没什么可写的</h3><h1 id="一"><a href="#一" class="headerlink" title="一"></a>一</h1><h2 id="参数传值"><a href="#参数传值" class="headerlink" title="参数传值"></a>参数传值</h2><ul><li>当调用对象，参数才会被分配空间</li></ul><h2 id="传值机制"><a href="#传值机制" class="headerlink" title="传值机制"></a>传值机制</h2><ul><li>传递的值不可以高于该参数的级别<br> 注： 数据类型的精度<figure class="highlight plaintext"><figcaption><span>Computer&#123;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">    int add(int x,int y)&#123;</span><br><span class="line">        return x+y;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public class Main &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Computer com =new Computer();//创建对象很重要</span><br><span class="line">        int m=100;</span><br><span class="line">        int n=200;</span><br><span class="line">        int result =com.add(m,n);</span><br><span class="line">        System.out.println(result);</span><br><span class="line">        result=com.add(120+m,n*10+8);</span><br><span class="line">        System.out.println(result);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="好像也没什么可写的"><a href="#好像也没什么可写的" class="headerlink" title="好像也没什么可写的"></a>好像也没什么可写的</h3><h1 id="一"><a href="#一" class="headerlink" title="一"></a>一</h1><h2 id="参数传值"><a href="#参数传值" class="headerlink" title="参数传值"></a>参数传值</h2><ul><li>当调用对象，参数才会被分配空间</li></ul><h2 id="传值机制"><a href="#传值机制" class="headerlink" title="传值机制"></a>传值机制</h2><ul><li>传递的值不可以高于该参数的级别<br> 注： 数据类型的精度<figure class="highlight plaintext"><figcaption><span>Computer&#123;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">    int add(int x,int y)&#123;</span><br><span class="line">        return x+y;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">public class Main &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Computer com =new Computer();//创建对象很重要</span><br><span class="line">        int m=100;</span><br><span class="line">        int n=200;</span><br><span class="line">        int result =com.add(m,n);</span><br><span class="line">        System.out.println(result);</span><br><span class="line">        result=com.add(120+m,n*10+8);</span><br><span class="line">        System.out.println(result);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="引用类型的传值"><a href="#引用类型的传值" class="headerlink" title="引用类型的传值"></a>引用类型的传值</h2><h5 id="（好困，这个地方好难呀）"><a href="#（好困，这个地方好难呀）" class="headerlink" title="（好困，这个地方好难呀）"></a>（好困，这个地方好难呀）</h5><figure class="highlight plaintext"><figcaption><span>Point&#123;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">    int radius;</span><br><span class="line">    Point(int radius)&#123;</span><br><span class="line">        this.radius=radius;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">class Rect&#123;</span><br><span class="line">    Point p;</span><br><span class="line">    Rect (Point r)&#123;</span><br><span class="line">        p=r;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">public class Example2_0 &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Point pp = new Point(10);</span><br><span class="line">        Rect rect =new Rect(pp);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="可变参数"><a href="#可变参数" class="headerlink" title="可变参数"></a>可变参数</h2><ul><li></li></ul><h2 id="对象的组成"><a href="#对象的组成" class="headerlink" title="对象的组成"></a>对象的组成</h2>]]></content>
     
     
       
