@@ -6,7 +6,7 @@
   <link href="http://sea-01.online/atom.xml" rel="self"/>
   
   <link href="http://sea-01.online/"/>
-  <updated>2023-03-19T14:27:46.197Z</updated>
+  <updated>2023-03-23T06:09:30.203Z</updated>
   <id>http://sea-01.online/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java课2</title>
+    <link href="http://sea-01.online/2023/03/23/java%E8%AF%BE2/"/>
+    <id>http://sea-01.online/2023/03/23/java%E8%AF%BE2/</id>
+    <published>2023-03-23T05:11:46.000Z</published>
+    <updated>2023-03-23T06:09:30.203Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> x;<span class="comment">//实例变量</span></span><br><span class="line"><span class="type">int</span> y;</span><br><span class="line"><span class="keyword">static</span> <span class="type">float</span> <span class="title function_">max</span><span class="params">(<span class="type">int</span> a,<span class="type">int</span> b)</span>&#123;<span class="comment">//和类变量差不多，可以用类名直接调用</span></span><br><span class="line">    x=a;<span class="comment">//非法！</span></span><br><span class="line">    y=b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="所以类方法不能操作实例变量"><a href="#所以类方法不能操作实例变量" class="headerlink" title="所以类方法不能操作实例变量"></a>所以类方法不能操作实例变量</h3><p>原因：static先扣空间，但实例变量还未被分配空间        </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>日常3</title>
