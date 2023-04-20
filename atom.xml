@@ -6,7 +6,7 @@
   <link href="http://sea-01.online/atom.xml" rel="self"/>
   
   <link href="http://sea-01.online/"/>
-  <updated>2023-04-10T06:57:48.089Z</updated>
+  <updated>2023-04-16T14:34:35.428Z</updated>
   <id>http://sea-01.online/</id>
   
   <author>
@@ -17,12 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>this</title>
+    <link href="http://sea-01.online/2023/04/16/this/"/>
+    <id>http://sea-01.online/2023/04/16/this/</id>
+    <published>2023-04-16T13:28:37.000Z</published>
+    <updated>2023-04-16T14:34:35.428Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="this-amp-super关键字"><a href="#this-amp-super关键字" class="headerlink" title="this&amp;super关键字"></a>this&amp;super关键字</h1><h5 id="别让情绪主导你"><a href="#别让情绪主导你" class="headerlink" title="别让情绪主导你"></a>别让情绪主导你</h5><h2 id="this关键字"><a href="#this关键字" class="headerlink" title="this关键字"></a>this关键字</h2><ul><li>在构造方法中使用this，代表使用该构造方法创建的对象<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">People()&#123;</span><br><span class="line">    <span class="built_in">this</span>.init();<span class="comment">//可以省略this写成init();</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li>在实例方法中使用this<ul><li><p>this.成员变量</p><p>  如果this的变量涉及到static了，就一定要加this。</p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span>&#123;</span><br><span class="line">    <span class="keyword">static</span> <span class="type">int</span> y;</span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">f</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="built_in">this</span>.y=<span class="number">100</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>this.方法（别忘写()了哦）</p><p>   可以省略this或类名 </p>  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> <span class="title function_">f</span><span class="params">()</span>&#123;</span><br><span class="line">   g();     </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul></li><li>this()是什么呀</li></ul><h2 id="super关键字"><a href="#super关键字" class="headerlink" title="super关键字"></a>super关键字</h2><ul><li><p>与this不同的点是this只指向一个东西，而super指向的不是一个整体，而是父类型特征，所以要写super.</p></li><li><p>简单来说super就是调用覆盖之前的父类</p></li><li><p>如果子类和父类出现一样的属性或者方法，super.不能省略（这句话不太懂，那我先不省略super.了</p></li><li><p>super()只能出现在第一行哦</p></li><li><p>当子类的构造方法内第一行没有出现“super()”时，系统会默认给它加上无参数的”super()”方法。4</p></li><li><p>super(无参数)就要保证父类里也有一个无参数的构造方法</p></li><li><p>this()和super()先执行super()，爸爸和小狗相比爸爸最大，他俩无法共存</p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;this-amp-super关键字&quot;&gt;&lt;a href=&quot;#this-amp-super关键字&quot; class=&quot;headerlink&quot; title=&quot;this&amp;amp;super关键字&quot;&gt;&lt;/a&gt;this&amp;amp;super关键字&lt;/h1&gt;&lt;h5 id=&quot;别让情绪主</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>随便说点</title>
+    <link href="http://sea-01.online/2023/04/13/%E9%9A%8F%E4%BE%BF%E8%AF%B4%E7%82%B9/"/>
+    <id>http://sea-01.online/2023/04/13/%E9%9A%8F%E4%BE%BF%E8%AF%B4%E7%82%B9/</id>
+    <published>2023-04-13T06:02:41.000Z</published>
+    <updated>2023-04-13T06:02:41.162Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>java课（重要）</title>
     <link href="http://sea-01.online/2023/04/10/java%E8%AF%BE%EF%BC%88%E9%87%8D%E8%A6%81%EF%BC%89/"/>
     <id>http://sea-01.online/2023/04/10/java%E8%AF%BE%EF%BC%88%E9%87%8D%E8%A6%81%EF%BC%89/</id>
     <published>2023-04-10T06:57:48.000Z</published>
-    <updated>2023-04-10T06:57:48.089Z</updated>
+    <updated>2023-04-10T07:13:39.976Z</updated>
     
+    <content type="html"><![CDATA[<p>重载参数不一样；要在一个类体里<br>重写方法类型参数类型个数一模一样</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;重载参数不一样；要在一个类体里&lt;br&gt;重写方法类型参数类型个数一模一样&lt;/p&gt;
+</summary>
+      
     
     
     
@@ -103,19 +144,6 @@
       
     <summary type="html">&lt;h1 id=&quot;今天也是没用的一天&quot;&gt;&lt;a href=&quot;#今天也是没用的一天&quot; class=&quot;headerlink&quot; title=&quot;今天也是没用的一天&quot;&gt;&lt;/a&gt;今天也是没用的一天&lt;/h1&gt;&lt;p&gt;&lt;code&gt; System.out.println(&amp;quot;好累&amp;quot;);</summary>
       
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>bug这么多想死</title>
-    <link href="http://sea-01.online/2023/03/13/bug%E8%BF%99%E4%B9%88%E5%A4%9A%E6%83%B3%E6%AD%BB/"/>
-    <id>http://sea-01.online/2023/03/13/bug%E8%BF%99%E4%B9%88%E5%A4%9A%E6%83%B3%E6%AD%BB/</id>
-    <published>2023-03-13T11:25:22.000Z</published>
-    <updated>2023-03-13T11:25:22.832Z</updated>
-    
     
     
     

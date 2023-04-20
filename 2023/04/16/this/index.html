@@ -8,7 +8,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Archives  [ SEA ]</title>
+<title>this [ SEA ]</title>
 
   <link rel="icon" href="/img/favicon.ico">
 
@@ -233,7 +233,7 @@
             
             
             
-            <a class="menu-link active" href="/archives/"> Archives</a>
+            <a class="menu-link " href="/archives/"> Archives</a>
           
             
             
@@ -248,120 +248,61 @@
     </nav>
   </div>
   
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+        <h1 class="header-title" itemprop="headline">this</h1>
+          <div class="post-meta">
+            <time>4月 16, 2023</time>
+            <span itemprop="author">
+              <span itemprop="name">sea小海</span>
+            </span>
+          </div>
+        </header>
 
+          <div class="page-content"><h1 id="this-amp-super关键字"><a href="#this-amp-super关键字" class="headerlink" title="this&amp;super关键字"></a>this&amp;super关键字</h1><h5 id="别让情绪主导你"><a href="#别让情绪主导你" class="headerlink" title="别让情绪主导你"></a>别让情绪主导你</h5><h2 id="this关键字"><a href="#this关键字" class="headerlink" title="this关键字"></a>this关键字</h2><ul>
+<li>在构造方法中使用this，代表使用该构造方法创建的对象<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">People()&#123;</span><br><span class="line">    <span class="built_in">this</span>.init();<span class="comment">//可以省略this写成init();</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>在实例方法中使用this<ul>
+<li><p>this.成员变量</p>
+<p>  如果this的变量涉及到static了，就一定要加this。</p>
+  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span>&#123;</span><br><span class="line">    <span class="keyword">static</span> <span class="type">int</span> y;</span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">f</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="built_in">this</span>.y=<span class="number">100</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><p>this.方法（别忘写()了哦）</p>
+<p>   可以省略this或类名 </p>
+  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> <span class="title function_">f</span><span class="params">()</span>&#123;</span><br><span class="line">   g();     </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li>this()是什么呀</li>
+</ul>
+<h2 id="super关键字"><a href="#super关键字" class="headerlink" title="super关键字"></a>super关键字</h2><ul>
+<li><p>与this不同的点是this只指向一个东西，而super指向的不是一个整体，而是父类型特征，所以要写super.</p>
+</li>
+<li><p>简单来说super就是调用覆盖之前的父类</p>
+</li>
+<li><p>如果子类和父类出现一样的属性或者方法，super.不能省略（这句话不太懂，那我先不省略super.了</p>
+</li>
+<li><p>super()只能出现在第一行哦</p>
+</li>
+<li><p>当子类的构造方法内第一行没有出现“super()”时，系统会默认给它加上无参数的”super()”方法。4</p>
+</li>
+<li><p>super(无参数)就要保证父类里也有一个无参数的构造方法</p>
+</li>
+<li><p>this()和super()先执行super()，爸爸和小狗相比爸爸最大，他俩无法共存</p>
+</li>
+</ul>
+</div>
+          <nav class="post-nav">
+    
+    
+    <a class="post-nav-item post-nav-next" href="/2023/04/13/%E9%9A%8F%E4%BE%BF%E8%AF%B4%E7%82%B9/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">随便说点</span>
+    </a>
+    
+  </nav>
 
-  <div class="wrapper">
-    <main class="page-content">
-    <header class="header">
-      <h1 class="header-title center">Archives</h1>
-    </header>
-      
-      
-        
-        
-        <h2 class="list-year">2023<svg xml="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" class="icon"><path d="M655 927q1-3 11-8 9-5 18-15t8-27q1-34-53-30-2 1-5 1-13-24 4-41 8 4 19 7 12 3 20 6 3 0 8 1 21-7 2-52-18-45-36-58-4-2-9-6-3-2-9-7-4-3-7-8t-6-7q-4-2-7-7-1-2-5-6 30-13 44-38 15-24 15-49 0-24-5-47-6-22-11-37-2-4-7-13 22-45 37-84t19-66q3-16 8-49 3-22-1-35-5-14-6-24t-6-12q-1-2-3-4-32 7-59 35-28 29-44 64-17 35-28 69-11 33-17 57-2 7-5 22h-35q1-3 4-15 18-42 29-80 10-38 12-61 2-24-1-45-3-22-9-32-7-10-12-21-5-10-10-10-2-1-5-3-39 28-65 67-25 39-34 75-10 37-13 69t0 53q3 22 5 23t3 5q0 2 2 7 1 3 1 7t1 7v3q-24 19-35 39-11 21-11 38 0 18 7 33t14 27q7 11 17 19 11 8 10 11 4 6 1 16h-1q-10 4-38 16-62 29-72 71-8 27 12 37 11 4 24-2 49-20 51-10-2 19-7 55-80-21-83 16-2 23 22 42 5 3 10 5 28 14 6 19-90 6-89 33v2q2 10 10 17 27 6 52 8 26 2 45 2 20 0 37-2 18-2 31-6 8-2 25-7 11-3 18-8 7-6 12-8t7-6q1-1 2-3-16-20-14-31 2-10 10-14 9-4 15-1 34 13 43 27 3 4-2 5-7 2-21 5-7 2-9 5t-3 6 4 7 16 9q77 29 202-10l9-3q-16-39-84-40zM457 581v-1q-4-7 4-23l9-3q5 0 7 3t2 7-1 9-2 6q-2 4-6 10-10-2-13-8zm86-24q1-2 5-4t6-2q7 2 11 10-4 23-16 21-3-1-4-4-1-2-2-6-1-3-1-7t1-6v-2zm-13 76q-1 7-4 11t-6 7h-31q-14 0-13-8 1-7 21-14h2q24-7 31 4z"/>" class="icon"></svg></h2>
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/04/16/this/">
-              this
-            </a>
-          </h3>
-        </article>
-      
-        
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/04/13/%E9%9A%8F%E4%BE%BF%E8%AF%B4%E7%82%B9/">
-              随便说点
-            </a>
-          </h3>
-        </article>
-      
-        
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/04/10/java%E8%AF%BE%EF%BC%88%E9%87%8D%E8%A6%81%EF%BC%89/">
-              java课（重要）
-            </a>
-          </h3>
-        </article>
-      
-        
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/03/25/%E8%B9%AD%E8%AF%BE/">
-              蹭课
-            </a>
-          </h3>
-        </article>
-      
-        
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/03/23/java%E8%AF%BE2/">
-              java课2
-            </a>
-          </h3>
-        </article>
-      
-        
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/03/19/%E6%97%A5%E5%B8%B83/">
-              日常3
-            </a>
-          </h3>
-        </article>
-      
-        
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/03/15/%E6%97%A5%E5%B8%B8-1/">
-              日常2
-            </a>
-          </h3>
-        </article>
-      
-        
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/03/13/%E6%97%A5%E5%B8%B8/">
-              日常
-            </a>
-          </h3>
-        </article>
-      
-        
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/03/12/nature/">
-              nature
-            </a>
-          </h3>
-        </article>
-      
-        
-        
-        <article class="post-item">
-          <h3 class="post-item-title">
-            <a href="/2023/03/11/hello-world/">
-              Hello World
-            </a>
-          </h3>
-        </article>
-      
-    </main>
-  </div>
-
+   </main>
+</div>
 
   <footer class="footer">
     <small class="footer_copyright">
